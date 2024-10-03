@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pseudo Elementos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+
+   <div class="container-fluid">
+    <main class="row">
+        <header class="col-12">
+            <h1 class="display-1 text-center">Pseudo Clases y Pseudo Elementos</h1>
+        </header>
+        <section class="col-3">
+            <h2 class="display-4 text-center">Hover</h2>
+            <a href="index.html" class="soyBoton">Soy Boton Hover</a>
+        </section>
+
+
+        <section class="col-3">
+            <h2 class="display-4 text-center">indeterminate</h2>
+            <div>
+                <input type="checkbox" id="checkbox"  />
+                <label for="checkbox">Color azul</label>
+              </div>
+              <div>
+                <input type="radio" id="radio" />
+                <label for="radio">Color rosado</label>
+              </div>
+        </section>
+
+
+        <section class="col-3">
+            <h2 class="display-4 text-center" class="input1">in-range</h2>
+            <form action="" id="form1">
+                    <label for="value1">Cuantos años tienes? </label>
+                    <li>
+                        <input
+                          id="value1"
+                          name="value1"
+                          type="number"
+                          placeholder="1 a 100"
+                          min="1"
+                          max="100"
+                          value="1" />
+                  </li>
+             </form>
+            
+        </section>
+        <section class="col-3">
+            <h2 class="display-1 text-center">invalid</h2>
+            <form>
+                <label for="url_input">Celular:</label>
+                <input type="url" id="url_input" />
+                <br />
+                <br />
+                <label for="email_input"> correo electrónico:</label>
+                <input type="email" id="email_input" required />
+              </form>
+        </section>
+
+      
+        <section class="col-3">
+          <h2 class="display-4 text-center">lang</h2>
+          <div lang="es">
+            <q>Este texto esta en español  <q>entendido?</q> ayuda.</q>
+          </div>
+          <div lang="en">
+            <q>This text is in English <q>understood?</q> aid</q>
+          </div>
+          <div lang="al">
+            <q>Dieser Text ist auf Deutsch <q>verstanden?</q> Hilfe</q>
+          </div>
+          <div lang="fr">
+            <q>Ce texte est en français  <q>compris?</q> aide</q>
+          </div>
+        </section>
+
+
+      
+        <section class="col-3">
+          <h2 class="display-4 text-center">last-child</h2>
+          <div>
+            <p>Este texto no está</p>
+            <p>¡Este texto si está!</p>
+          </div>
+          
+          <div>
+            <p>Este texto no está</p>
+            <h3>¡Este texto si está!</h3>
+          </div>
+        </section>
+
+
+        <section class="col-3">
+          <h2 class="display-4 text-center">last-of-type</h2>
+          <h2>Título</h2>
+          <p>HOLA</p>
+          <p class="parrafo1">HOLAAAA</p>
+        </section>
+
+
+        <section class="col-3">
+        <h2 class="display-4 text-center">left</h2> 
+        <li>
+          hola
+        </li>
+        <li>
+          quibo
+        </li>
+        <li>
+          que mas
+        </li>
+        </section>
+
+
+
+        <section class="col-3">
+          <h2 class="display-4 text-center">link</h2>
+          <a href="#ordinary-target">Este es un enlace increible</a><br />
+          <a href="">Ya has visitado este enlace.</a><br /> 
+        </section>
+
+
+
+        <section class="col-3">
+            <h2 class="display-4 text-center">not()</h2>
+            <p>Soy un párrafo.</p>
+            <p class="fancy">¡Soy muy elegante!</p>
+            <div>NO soy un párrafo.</div>
+        </section>
+
+
+
+
+
+
+        <section class="col-3">
+            <h2 class="display-4 text-center">nth-child</h2>
+            <p>Los hnumeros 1, 3, 5 y 7 son seleccionados.</p>
+            <div class="first">
+              <span>numero 1!</span>
+              <span>numero 2</span>
+              <span>numero 3!</span>
+              <span>numero 4</span>
+              <span>numero 5!</span>
+              <span>numero 6</span>
+              <span>numero 7!</span>
+            </div>
+        </section>
+
+
+        <section class="col-3">
+            <h2 class="display-4 text-center">nth-last-child</h2>
+            <table>
+                <tbody>
+                  <tr>
+                    <td>Primera línea</td>
+                  </tr>
+                  <tr>
+                    <td>Segunda línea</td>
+                  </tr>
+                  <tr>
+                    <td>Tercera línea</td>
+                  </tr>
+                  <tr>
+                    <td>Cuarta línea</td>
+                  </tr>
+                  <tr>
+                    <td>Quinta línea</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+
+
+
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+        <section class="col-3"></section>
+    </main>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
